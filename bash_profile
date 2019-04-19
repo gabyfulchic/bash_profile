@@ -1,7 +1,7 @@
 ##############################
 #							               #
-#	  GABY AKA WEEKING		     #
-#       BASH_PROFILE		     #
+#	       GABY | WEEKING		   #
+#           BASHRC  		     #
 #							               #
 ##############################
 
@@ -25,3 +25,8 @@ alias .....="../../../../"
 alias ......="../../../../../"
 alias compress="tar -czvf"
 alias extract="tar -xzvf"
+alias grst="git reset"
+alias gcm="git commit -m"
+alias gpush="git push -u origin"
+alias gpushm="git push -u origin master"
+alias gpushd="git push -u origin dev"
