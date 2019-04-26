@@ -1,10 +1,3 @@
-##############################
-#							               #
-#	       GABY | WEEKING		   #
-#           BASHRC  		     #
-#							               #
-##############################
-
 #####################################################################
 #______  ___  _____ _   _    ___  _    _____ ___  _____ _____ _____ #
 #| ___ \/ _ \/  ___| | | |  / _ \| |  |_   _/ _ \/  ___|  ___/  ___|#
@@ -32,6 +25,10 @@ alias gcm="git commit -m"
 alias gpu="git push -u origin"
 alias gpum="git push -u origin master"
 alias gpud="git push -u origin dev"
+alias gstop="gitlab-ctl stop"
+alias gstart="gitlab-ctl start"
+alias gstatus="gitlab-ctl status"
+alias grcfg="gitlab-ctl reconfigure"
 
 ##################################################
 #  ______ _   ___      __ __      __     _____   #
@@ -42,3 +39,10 @@ alias gpud="git push -u origin dev"
 # |______|_| \_|   \/         \/_/    \_\_|  \_\ #
 #                                                #
 ##################################################
+
+export ME="Gaby FULCHIC, Administrateur Système. Fan de DEVOPS"
+export WEB="/usr/share/www"
+export ansible="/home/gabyf/ansible-ops"
+export kubernetes="/home/gabyf/k8s-ops"
+export puppet="/home/gabyf/puppet-ops"
+export kubespray="/home/gabyf/ansible-ops/vendor/kubespray"
