@@ -20,7 +20,7 @@ alias ......="../../../../../"
 alias who="echo \"je s'appelle root\""
 
 ## MY SHELL :p
-alias gotozsh="chsh -s /bin/zsh"
+alias gotozsh="chsh -s /bin/zsh gabyf"
 
 ## GIT
 alias grst="git reset"
