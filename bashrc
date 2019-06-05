@@ -19,6 +19,9 @@ alias .....="../../../../"
 alias ......="../../../../../"
 alias who="echo \"je s'appelle root\""
 
+## MY SHELL :p
+alias gotozsh="chsh -s /bin/zsh"
+
 ## GIT
 alias grst="git reset"
 alias gstash="git stash"
