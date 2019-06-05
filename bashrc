@@ -24,10 +24,11 @@ alias gotozsh="chsh -s /bin/zsh gabyf"
 
 ## GIT
 alias grst="git reset"
-alias gstash="git stash"
-alias gstashapp="git stash apply"
+alias gstsh="git stash"
+alias gstshon="git stash apply"
 alias gcm="git commit -m"
-alias gpu="git push -u origin"
+alias gcmS="git commit -S -m"
+alias gpu="git push"
 alias gpum="git push -u origin master"
 alias gpud="git push -u origin dev"
 
