@@ -8,6 +8,7 @@
 #																	                                  #
 #####################################################################
 
+## BUILTIN CMDS
 alias lsf="ls -alFh"
 alias gst="git status"
 alias la="ls -al"
@@ -16,8 +17,9 @@ alias ...="../../"
 alias ....="../../../"
 alias .....="../../../../"
 alias ......="../../../../../"
-alias compress="tar -czvf"
-alias extract="tar -xzvf"
+alias who="echo \"je s'appelle root\""
+
+## GIT
 alias grst="git reset"
 alias gstash="git stash"
 alias gstashapp="git stash apply"
@@ -25,10 +27,21 @@ alias gcm="git commit -m"
 alias gpu="git push -u origin"
 alias gpum="git push -u origin master"
 alias gpud="git push -u origin dev"
+
+## GITLAB-CTL
 alias gstop="gitlab-ctl stop"
 alias gstart="gitlab-ctl start"
 alias gstatus="gitlab-ctl status"
 alias grcfg="gitlab-ctl reconfigure"
+
+## ADDED BINARIES || SOFTS
+alias compress="tar -czvf"
+alias extract="tar -xzvf"
+alias k="kubectl"
+alias d="docker"
+alias a="ansible"
+alias ap="ansible-playbook"
+alias ppt="/bin/puppet"
 
 ##################################################
 #  ______ _   ___      __ __      __     _____   #
@@ -40,7 +53,7 @@ alias grcfg="gitlab-ctl reconfigure"
 #                                                #
 ##################################################
 
-export ME="Gaby FULCHIC, Administrateur Système. Fan de DEVOPS"
+export ME="Gaby FULCHIC, Ingénieur Système. DEVOPS Addict :p"
 export WEB="/usr/share/www"
 export ansible="/home/gabyf/ansible-ops"
 export kubernetes="/home/gabyf/k8s-ops"
