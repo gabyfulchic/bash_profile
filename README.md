@@ -1,6 +1,6 @@
 # FULCHIC Gaby PROFILE #  
 [![file](https://img.shields.io/badge/file-bashrc-lightgrey.svg)](https://github.com/gabyfulchic)  
-``` My profile, my aliases, my shell, my Env vars. And soon my Vimrc```  
+``` My profile, my aliases, my shell, my Env vars. And soon my Vimrc 👀```  
 
 # How to use 
 ```ruby  
