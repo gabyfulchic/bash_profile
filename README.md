@@ -6,5 +6,5 @@
 ```ruby  
 > git clone https://github.com/gabyfulchic/bashrc.git  
 > cd bashrc/  
-> mv bashrc /home/user/.bashrc  
+> cp bashrc /home/user/.bashrc  
 ```
