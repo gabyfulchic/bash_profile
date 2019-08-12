@@ -41,9 +41,9 @@ alias grcfg="gitlab-ctl reconfigure"
 ## ADDED BINARIES || SOFTS
 alias compress="tar -czvf"
 alias extract="tar -xzvf"
-alias k="kubectl"
-alias d="docker"
-alias a="ansible"
+alias k8s="kubectl"
+alias dk="docker"
+alias ans="ansible"
 alias ap="ansible-playbook"
 alias ppt="/bin/puppet"
 
