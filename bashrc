@@ -22,6 +22,9 @@ alias who="echo \"je s'appelle root\""
 ## MY SHELL :p
 alias gotozsh="chsh -s /bin/zsh gabyf"
 
+## FUNNY ALIASES ヽ( •_-)ᕗ
+alias dodab="echo \"ヽ( •_-)ᕗ\""
+
 ## GIT
 alias grst="git reset"
 alias gstsh="git stash"
