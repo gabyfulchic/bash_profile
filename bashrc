@@ -5,41 +5,42 @@
 #| ___ \  _  |`--. \  _  | |  _  | |    | ||  _  |`--. \  __| `--. \#
 #| |_/ / | | /\__/ / | | | | | | | |____| || | | /\__/ / |___/\__/ /#
 #\____/\_| |_|____/\_| |_/ \_| |_|_____|___|_| |_|____/\____/\____/ #
-#																	                                  #
+#                                                                   #
 #####################################################################
 
-## BUILTIN CMDS
-alias lsf="ls -alFh"
+## Can't work without
+alias lf="ls -alFh"
+alias gpu="git push"
 alias gst="git status"
-alias la="ls -al"
+alias gcm="git commit -m"
 alias ..="../"
 alias ...="../../"
 alias ....="../../../"
 alias .....="../../../../"
 alias ......="../../../../../"
-alias who="echo \"je s'appelle root\""
 
 ## MY SHELL :p
 alias gotozsh="chsh -s /bin/zsh gabyf"
 
 ## FUNNY ALIASES ヽ( •_-)ᕗ
+alias who="echo \"je s'appelle root\""
 alias dodab="echo \"ヽ( •_-)ᕗ\""
 
 ## GIT
 alias grst="git reset"
-alias gstsh="git stash"
-alias gstshon="git stash apply"
-alias gcm="git commit -m"
+alias uncommit="git reset HEAD^"
+alias gstash="git stash"
+alias gstsahapp="git stash apply"
 alias gcmS="git commit -S -m"
-alias gpu="git push"
 alias gpum="git push -u origin master"
 alias gpud="git push -u origin dev"
 
 ## GITLAB-CTL
-alias gstop="gitlab-ctl stop"
-alias gstart="gitlab-ctl start"
-alias gstatus="gitlab-ctl status"
-alias grcfg="gitlab-ctl reconfigure"
+## Stopped to use it anymore
+# alias gstop="gitlab-ctl stop"
+# alias gstart="gitlab-ctl start"
+# alias gstatus="gitlab-ctl status"
+# alias grcfg="gitlab-ctl reconfigure"
 
 ## ADDED BINARIES || SOFTS
 alias compress="tar -czvf"
@@ -47,7 +48,7 @@ alias extract="tar -xzvf"
 alias k8s="kubectl"
 alias dk="docker"
 alias ans="ansible"
-alias ap="ansible-playbook"
+alias ansp="ansible-playbook"
 alias ppt="/bin/puppet"
 
 ##################################################
@@ -60,6 +61,7 @@ alias ppt="/bin/puppet"
 #                                                #
 ##################################################
 
+# Mes variables pour cd plus vite
 export ME="Gaby FULCHIC, Ingénieur Système. DEVOPS Addict :p"
 export WEB="/usr/share/www"
 export ansible="/home/gabyf/ansible-ops"
