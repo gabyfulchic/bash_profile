@@ -10,36 +10,36 @@
 
 ## Can't work without
 alias lf="ls -alFh"
-alias gpu="git push"
-alias gst="git status"
-alias gbr="git branch"
-alias gmrg="git merge"
-alias grev="git revert"
-alias gck="git checkout"
-alias gcm="git commit -m"
-alias gbrr="git branch -r"
-alias gckb="git checkout -b"
 alias ..="../"
 alias ...="../../"
 alias ....="../../../"
 alias .....="../../../../"
 alias ......="../../../../../"
 
+## GIT
+alias gpu="git push"
+alias gst="git status"
+alias gbr="git branch"
+alias gmrg="git merge"
+alias grst="git reset"
+alias grev="git revert"
+alias gstash="git stash"
+alias gck="git checkout"
+alias gcm="git commit -m"
+alias gbrr="git branch -r"
+alias gckb="git checkout -b"
+alias gcmS="git commit -S -m"
+alias uncommit="git reset HEAD^"
+alias gstsahapp="git stash apply"
+alias gpud="git push -u origin dev"
+alias gpum="git push -u origin master"
+
 ## MY SHELL :p
-alias gotozsh="chsh -s /bin/zsh gabyf"
+alias gotozsh="sudo chsh -s /bin/zsh gabyf"
 
 ## FUNNY ALIASES ヽ( •_-)ᕗ
 alias who="echo \"je s'appelle root\""
 alias dodab="echo \"ヽ( •_-)ᕗ\""
-
-## GIT
-alias grst="git reset"
-alias uncommit="git reset HEAD^"
-alias gstash="git stash"
-alias gstsahapp="git stash apply"
-alias gcmS="git commit -S -m"
-alias gpum="git push -u origin master"
-alias gpud="git push -u origin dev"
 
 ## GITLAB-CTL
 ## Stopped to use it anymore
